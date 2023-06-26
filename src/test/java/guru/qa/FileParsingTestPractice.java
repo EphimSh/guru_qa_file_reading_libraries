@@ -18,13 +18,13 @@ import static org.junit.jupiter.api.Assertions.*;
 public class FileParsingTestPractice {
     ZipFile zf;
 
-
     {
         try {
             zf = new ZipFile(new File("src/test/resources/homework/zip_sample.zip"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+
     }
 
     @Test
