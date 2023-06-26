@@ -64,9 +64,9 @@ public class FileParsingTestPractice {
     }
 
     @Test
-    void pngNameFromZipTest() throws Exception {
-            ZipEntry entry = zf.getEntry("pepe.png");
-            assertEquals("pepe.png", entry.getName());
+    void pngNameFromZipTest() {
+        ZipEntry entry = zf.getEntry("pepe.png");
+        assertEquals("pepe.png", entry.getName());
     }
 
 }
